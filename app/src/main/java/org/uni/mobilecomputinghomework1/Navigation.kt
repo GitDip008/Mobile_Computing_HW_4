@@ -105,9 +105,7 @@ fun Navigation(navController: NavHostController) {
                             Button(
                                 colors = ButtonDefaults.buttonColors(
                                     containerColor = LatteBrown,
-                                    contentColor = EspressoBlack,
-                                    disabledContainerColor = LatteBrown,
-                                    disabledContentColor = EspressoBlack
+                                    contentColor = EspressoBlack
                                 ),
                                 onClick = {
                                     navController.popBackStack(Screens.Home.route, inclusive = false)
